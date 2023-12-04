@@ -1,0 +1,70 @@
+body{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+@font-face{
+    font-family:"BlackMango";
+    src: url(BlackMango-Regular.ttf);
+}
+@font-face{
+    font-family:"BlackMangoB";
+    src: url(BlackMango-Black.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Poppins&display=swap');
+*{
+    background-color: #faf6f0;
+}
+#heading{
+    font-size: 60px;
+    margin: 0 200px 0 230px;
+    background-color: white;
+    font-family: BlackMango;
+}
+.container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.pdf-container{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 150px 150px 150px;
+    grid-row-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+.pdf-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdf-image >img{
+    border-radius: 8px;
+    box-shadow: 5px 5px grey;
+}
+.pdf-text{
+    font-family: monospace;
+    font-size:20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+}
+.link:hover{
+    color:blue;
+}
+.footer{
+    display: flex;
+    bottom: 0;
+    background-color: #EAD1C2;
+    width: 100%;
+    height: 100px;
+}
